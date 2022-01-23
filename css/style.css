@@ -20,7 +20,7 @@ body{
 }
 
 /* slider style  */
-.carousel-item{
+.carousel.slide{
     height: calc(100vh - 62px);
 }
 .overlay-color{
@@ -31,4 +31,8 @@ body{
 }
 .zi-2{
     z-index: 2;
+}
+.img-and-infoText img{
+    height: calc(100vh - 62px);
+    object-fit: cover;
 }
