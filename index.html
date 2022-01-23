@@ -18,27 +18,88 @@
     <link rel="stylesheet" href="./css/style.css">
     <!-- css stylesheet link end -->
 
-    <!-- google font link start  -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family = Fira+Sans: wght@200; 400; 600; 800 &family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
-    <!-- google font link end  -->
-
 </head>
 <body>
     
-<header class="bg-light">
-    <div class="container">
+<header class="">
+    <div class="">
 
         <!-- nav bar and logo icon  -->
-        <nav class="navbar navbar-light">
-              <a class="navbar-brand" href="#">
-                <h4 class="fw-bold">BD Wedding</h4>
-              </a>
+        <nav class="navbar navbar-light bg-light ">
+              <div class="container">
+                <a class="navbar-brand" href="#">
+                    <h4 class="fw-bold">BD Wedding</h4>
+                  </a>
+              </div>
           </nav>
 
           <!-- slider  -->
-          
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+
+                <!-- slider img 1  -->
+              <div class="carousel-item active position-relative">
+
+                <div class="img-and-infoText">
+                    <img src="./images/slider-1.jpg" class="d-block w-100" alt="slider-img">
+                    <div class="carousel-caption d-none d-md-block zi-2">
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                </div>
+                <!-- overlay  -->
+                <div class="overlay w-100 h-100 overlay-color zi-1 position-absolute top-0 start-0"></div>
+
+              </div>
+
+                <!-- slider img 2  -->
+              <div class="carousel-item position-relative">
+
+                <div class="img-and-infoText">
+                    <img src="./images/slider-2.jpg" class="d-block w-100" alt="slider-img">
+                    <div class="carousel-caption d-none d-md-block zi-2">
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                </div>
+                <!-- overlay  -->
+                <div class="overlay w-100 h-100 overlay-color zi-1 position-absolute top-0 start-0"></div>
+
+              </div>
+
+                <!-- slider img 3  -->
+              <div class="carousel-item position-relative">
+
+                <div class="img-and-infoText">
+                    <img src="./images/slider-3.jpg" class="d-block w-100" alt="slider-img">
+                    <div class="carousel-caption d-none d-md-block zi-2">
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                </div>
+                <!-- overlay  -->
+                <div class="overlay w-100 h-100 overlay-color zi-1 position-absolute top-0 start-0"></div>
+
+              </div>
+
+
+
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
 
 
     </div>
