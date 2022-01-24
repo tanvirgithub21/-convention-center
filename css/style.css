@@ -50,3 +50,20 @@ body{
     top: 0;right: 0;
     transform: translate(43px, 25px) rotate(40deg) ;
 }
+
+/* footer  */
+footer{
+    background-color: #0B0D17;
+    height: 170px;
+}
+.footer-wrap{
+    height: 170px;
+}
+
+/* app store icon style  */
+.appStore{
+    width: 100px;
+}
+.googlePlay{
+    width: 100px;
+}
