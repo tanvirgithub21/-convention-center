@@ -12,7 +12,7 @@
 }
 h1, h2, h3, h4, h5, h6{
     font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+    font-weight: 600;
 }
 body{
     font-family: 'Poppins', sans-serif;
@@ -35,4 +35,18 @@ body{
 .img-and-infoText img{
     height: calc(100vh - 62px);
     object-fit: cover;
+}
+
+
+
+/* price table  */
+#best-d::before{
+    content: "popular";
+    background-color: white;
+    color: tomato;
+    padding: 2px 60px;
+    font-weight: 600;
+    position: absolute;
+    top: 0;right: 0;
+    transform: translate(43px, 25px) rotate(40deg) ;
 }
