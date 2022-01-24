@@ -1,14 +1,9 @@
 /* google fonts link  */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&family=Roboto:wght@300;400;700&display=swap');
-
-
 /* common style */
 *{
     margin: 0;padding: 0;
     box-sizing: border-box;
-}
-:root{
-
 }
 h1, h2, h3, h4, h5, h6{
     font-family: 'Roboto', sans-serif;
@@ -18,7 +13,6 @@ body{
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
 }
-
 /* slider style  */
 .carousel.slide{
     height: calc(100vh - 62px);
@@ -36,9 +30,6 @@ body{
     height: calc(100vh - 62px);
     object-fit: cover;
 }
-
-
-
 /* price table  */
 #best-d::before{
     content: "popular";
@@ -50,7 +41,6 @@ body{
     top: 0;right: 0;
     transform: translate(43px, 25px) rotate(40deg) ;
 }
-
 /* footer  */
 footer{
     background-color: #0B0D17;
@@ -59,11 +49,15 @@ footer{
 .footer-wrap{
     height: 170px;
 }
-
 /* app store icon style  */
 .appStore{
     width: 100px;
 }
 .googlePlay{
     width: 100px;
+}
+/* tost  */
+.tostPositionSet{
+    position: absolute;
+    top: 180px ;right: 0;
 }
